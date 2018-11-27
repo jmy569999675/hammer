@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		html,body{margin: 0;padding: 0;width: 100px;height: 100px;background-color: #ddd;}
+		#puzzle{
+			position: absolute;
+			top: 40%;
+			left: 20%;
+			width: 340px;
+			height: 260px;
+		}
+		#puzzle .container{
+			float: left;
+			width: 107px;
+			height: 80px;
+		}
+		#puzzle .container i{
+			display: block;
+			margin: 4px;
+			width: 99px;
+			height: 72px;
+			background-color: #fff;
+		}
+		#video{
+			opacity: 0;
+		}
+		canvas{
+			
+		}
+	</style>
+</head>
+<body>
+<div id="puzzle">
+	<div class="container"><i></i></div>
+	<div class="container"><i></i></div>
+	<div class="container"><i></i></div>
+	<div class="container"><i></i></div>
+	<div class="container"><i></i></div>
+	<div class="container"><i></i></div>
+	<div class="container"><i></i></div>
+	<div class="container"><i></i></div>
+	<div class="container"><i></i></div>
+</div>
+
+<video width="320" height="240" id="video" autoplay="" loop muted preload="">
+	<source src="video/movie.mp4" type="video/mp4">
+</video>
+</body>
+</html>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://cdn.bootcss.com/hammer.js/2.0.8/hammer.js"></script>
+<script src="js/jquery.hammer.js"></script>
+<script src="js/hammer.js"></script>
+<script>
+/*var cas = document.getElementById('cas');
+var context = cas.getContext("2d");
+var video = document.getElementById('video');
+
+setInterval(function(){
+	context.drawImage(video,0*107,80,107,80,0,0,107,80);
+},50)*/
+	
+
+</script>
